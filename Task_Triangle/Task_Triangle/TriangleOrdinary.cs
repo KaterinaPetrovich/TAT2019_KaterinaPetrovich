@@ -27,7 +27,7 @@ namespace Task_Triangle
         /// <returns> Return square</returns>
         public override double GetSquare()
         {
-            return (1 / 2) * ((point1.X - point3.X) * (point2.Y - point3.Y) - (point1.Y - point3.Y) * (point2.X - point3.X));
+            return Math.Abs((point1.X - point3.X) * (point2.Y - point3.Y) - (point1.Y - point3.Y) * (point2.X - point3.X))/2;
         }
     }
 }

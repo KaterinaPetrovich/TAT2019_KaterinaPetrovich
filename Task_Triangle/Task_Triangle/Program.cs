@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 namespace Task_Triangle
 {
     /// <summary>
@@ -25,7 +27,7 @@ namespace Task_Triangle
             Triangle triangle;
             triangle = builderRectangular.Create(point1,point2,point3);
 
-
+            Console.WriteLine(triangle.GetSquare());
         }
     }
 }
