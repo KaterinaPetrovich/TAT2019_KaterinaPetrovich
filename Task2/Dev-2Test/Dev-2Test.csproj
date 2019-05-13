@@ -11,7 +11,10 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
     <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+<<<<<<< HEAD
     <PackageReference Include="NUnit" Version="3.11.0" />
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
   </ItemGroup>
 
   <ItemGroup>

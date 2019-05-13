@@ -6,6 +6,7 @@ namespace Dev_2Test
     [TestClass]
     public class UnitTest1
     {
+<<<<<<< HEAD
         Word word;
         [TestInitialize]
         public void TestInitialize()
@@ -13,11 +14,17 @@ namespace Dev_2Test
             word = new Word();
         }
 
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         [TestMethod]
         public void Test—heck()
         {
             string checkingWord = "‡ÂÓ·Ôı¸";
             int[] expected = new int[7] { 1, 2, 3, 4, 5, 6, 7 };
+<<<<<<< HEAD
+=======
+            Word word = new Word();
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
             int[] actual = word.—heck(checkingWord);
             for (int i = 0; i < checkingWord.Length; i++)
             {
@@ -30,6 +37,10 @@ namespace Dev_2Test
         {
             string checkingWord = "ÍÓÚ";
             string expected = "ÍÓ+Ú";
+<<<<<<< HEAD
+=======
+            Word word = new Word();
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
             string actual = word.AddPlus(checkingWord);
             Assert.AreEqual(expected, actual);
         }
@@ -39,6 +50,7 @@ namespace Dev_2Test
         {
             string checkingWord = "∏ÎÍ‡";
             string expected = "ÈÓÎÍ‡";
+<<<<<<< HEAD
             int[] matrix = new int[4] { 2, 0, 4, 1 };
             string actual = word.FonemaBuild(checkingWord, matrix,1);
             Assert.AreEqual(expected, actual);
@@ -65,4 +77,14 @@ namespace Dev_2Test
         }
 
         }
+=======
+            int[] matrix = new int[4] { 2, 0, 4,1};
+            Word word = new Word();
+            string actual = word.FonemaBuild(checkingWord, matrix,1);
+            Assert.AreEqual(expected, actual);
+        }
+       
+
+    }
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
 }

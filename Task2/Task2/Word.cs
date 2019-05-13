@@ -99,17 +99,26 @@ namespace Task2
             }
             return matrix;           
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         public bool checkOrdinaryVowels(char c)
         {
             return ordinaryvowels.Contains(c);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         public bool checkCompositeVowels(char c)
         {
             return compositevowels.Contains(c);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         public bool checkRinging(char c)
         {
             return ringing.Contains(c);
@@ -134,7 +143,10 @@ namespace Task2
         {
             return (c == 'о');
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         /// <summary>
         /// this method build fonema
         /// </summary>
@@ -226,7 +238,11 @@ namespace Task2
         /// <param name="word">inputed string</param>
         /// <param name="stress">index of stressed letter</param>
         /// <returns>word with deleted '+'</returns>
+<<<<<<< HEAD
         public string SearchAndDeleteStress(string word, out int stress)
+=======
+        public string SearchStress(string word, out int stress)
+>>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
         {
            
             // Search stress and remove symbol '+' from word.
