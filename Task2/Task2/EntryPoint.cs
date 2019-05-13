@@ -22,15 +22,9 @@ namespace Task2
                 int stress = 0;
                 string word = args[0];
                 Word Object = new Word();
-<<<<<<< HEAD
                 if (Object.SearchAndDeleteStress(word, out stress) != null)
                 {
                     string line = Object.SearchAndDeleteStress(word, out stress);
-=======
-                if (Object.SearchStress(word, out stress) != null)
-                {
-                    string line = Object.SearchStress(word, out stress);
->>>>>>> a5529a7ae263e2d32c6aaa421e7bb75135bdc880
                     matrix = Object.Сheck(line);
                     string fonema=Object.FonemaBuild(line, matrix, stress);
                     Object.fonemaPrint(fonema);
