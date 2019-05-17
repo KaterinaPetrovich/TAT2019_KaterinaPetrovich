@@ -14,7 +14,7 @@ namespace Dev_2Test
         }
 
         [TestMethod]
-        public void TestÑheck()
+        public void TestCheck()
         {
             string checkingWord = "àåîáïõü";
             int[] expected = new int[7] { 1, 2, 3, 4, 5, 6, 7 };
